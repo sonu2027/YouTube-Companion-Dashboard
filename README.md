@@ -76,7 +76,7 @@ For every API call like deleting a comment, replying to a comment, posting a com
 
 * logs.model.js
 ---------------
-``
+```
 import mongoose, { Schema } from "mongoose";
 
 const logSchema = new Schema(
@@ -110,11 +110,11 @@ const logSchema = new Schema(
 );
 
 export const Log = mongoose.model("Log", logSchema);
-``
+```
 
 * notes.model.js
 ----------------
-``
+```
 import mongoose, { Schema } from "mongoose";
 
 const noteSchema = new Schema(
@@ -134,4 +134,4 @@ const noteSchema = new Schema(
 );
 
 export const Note = mongoose.model("Note", noteSchema);
-``
+```
